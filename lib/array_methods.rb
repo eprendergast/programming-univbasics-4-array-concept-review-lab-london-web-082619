@@ -2,14 +2,11 @@
 
 def find_element_index(array, value_to_find)
   length = array.length
-  found = 0
+  match = nil
 
   length.times  do |index|
     if array[index] == value_to_find
-      found = 1
-      return index
-    else
-      return nil
+      match = index
     end
 
   end
