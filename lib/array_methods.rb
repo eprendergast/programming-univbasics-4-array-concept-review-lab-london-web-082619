@@ -8,9 +8,7 @@ def find_element_index(array, value_to_find)
     if array[index] == value_to_find
       match = index
     end
-
   return match
-
 end
 
 def find_max_value(array)
